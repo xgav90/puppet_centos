@@ -1,0 +1,6 @@
+# Test owner
+file { '/etc/owned_by_puppet':
+  ensure => present,
+  owner  => 'puppet',
+  group	 => 'puppet',
+}
