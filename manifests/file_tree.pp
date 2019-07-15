@@ -3,6 +3,7 @@ file {'/etc/tree_dir':
   recurse => 'true',
   owner => 'puppet',
   group => 'puppet',
-  mode => '0770'
+  mode => '0770',
+  purge => 'true',
 }
 
