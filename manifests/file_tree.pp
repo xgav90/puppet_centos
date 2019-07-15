@@ -5,5 +5,6 @@ file {'/etc/tree_dir':
   group => 'puppet',
   mode => '0770',
   purge => 'true',
+  force => 'true',
 }
 
