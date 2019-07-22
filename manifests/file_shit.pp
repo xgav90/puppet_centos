@@ -1,4 +1,4 @@
 file { '/tmp/shit.txt':
   ensure => 'file',
-  context => 'hello, shit\n',
+  content => 'hello, shit\n',
 }
