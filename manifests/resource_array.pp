@@ -3,6 +3,6 @@ $main_packages = [
   'stress',
 ]
 
-package { $main-base_packages:
+package { $main_packages:
   ensure => installed,
 }
