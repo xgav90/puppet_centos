@@ -1,4 +1,4 @@
-$main-base_packages = [
+$main_packages = [
   'htop',
   'stress',
 ]
